@@ -131,3 +131,4 @@ select star.star_name, star.star_dob, film.title from star join film on star.sta
 select director.director_name, film.title, film.score from film join director on film.directorid = director.directorid order by film.score desc;
 
 select director.director_name, film.title, writer.writer_name, writer_email from film join director on film.directorid = director.directorid join writer on writer.writerid = film.writerid;
+--c

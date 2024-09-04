@@ -141,4 +141,5 @@ select  person.name from person join  star2 on person.personid = star2.starid;
 select  person.name from person join director2 on person.personid = director2.personid;
 
 select person.name from person join writer2 on person.personid = writer2.personid;
+--c
 
